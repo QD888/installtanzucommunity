@@ -56,7 +56,7 @@ Install network tools.
 ```
 sudo apt update
 sudo apt install net-tools 
-sudo apt curl
+sudo apt install curl
 ```
 
 ### 2. Install ```kubectl```
