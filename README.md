@@ -66,10 +66,10 @@
   ```
   tanzu management-cluster get
   tanzu management-cluster kubeconfig get tanzu --admin
-  #注意：将下面管理集群名字manage替换为自己启的名字
+  #注意：将下面管理集群名字manage替换为自己起的名字
   kubectl config use-context manage-admin@manage
   kubectl get node
-  #创建工作负载集群，名字为tkg-workloa
+  #创建工作负载集群，名字为tkg-workload
   tanzu cluster create tkg-workload --plan dev
   tanzu cluster list
   tanzu cluster  kubeconfig get tkg-workload --admin
