@@ -78,5 +78,4 @@
   kubectl get node
   kubectl get pod --all-namespaces
   ```
-- ![image.png](../assets/image_1656476850506_0.png)
 - VM 休眠，避免下次用的时候IP发生变化，如果没有改成静态IP设置
