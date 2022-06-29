@@ -55,6 +55,7 @@
 - 启动Tanzu GUI
   ```
   # 改成自己的IP，ip addr 查看。如果要修改,配置文件在/etc/netplan/
+  sudo apt-get install xdg-utils
   tanzu management-cluster create --ui -b 192.168.115.210:8080
   
   ```
