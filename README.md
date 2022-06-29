@@ -58,9 +58,8 @@
   tanzu management-cluster create --ui -b 192.168.115.210:8080
   
   ```
-- 浏览器访问，选docker，next，起一个名字，next，点击Deploy
-  >这一步需要no split VPN网络，部署过程中会下载和上传大量的数据，要耐心等待
-  http://<你自己VM的IP>:8080
+- 浏览器访问http://<你自己VM的IP>:8080，选docker，next，起一个名字，next，点击Deploy
+  这一步需要no split VPN网络，部署过程中会下载和上传大量的数据，要耐心等待
   如果Docker集群部署失败，断开 no splite VPN，重复上一步，换一个名字，比如manage
 - 部署完成后，体验Tanzu
   ```
