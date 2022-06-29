@@ -79,3 +79,6 @@
   kubectl get pod --all-namespaces
   ```
 - VM 休眠，避免下次用的时候IP发生变化，如果没有改成静态IP设置
+- 参考文章
+https://github.com/leo-cao/installtanzucommunity/blob/main/Tanzu%20Community%20Installation%20Guide.md
+https://www.cnblogs.com/scofield666/p/15429376.html
