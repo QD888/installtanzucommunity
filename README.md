@@ -19,18 +19,18 @@
   sudo vi 01-network-manager-all.yaml
   sudo netplan apply
   # 下面是配置静态IP的文件名和配置内容，供参考  
-test@ubuntu21:/etc/netplan$ cat 01-network-manager-all.yaml
-network:
-  version: 2
-  renderer: networkd
-  ethernets:
-    ens33:
-      dhcp4: no
-      addresses: [192.168.115.210/24]
-      optional: true
-      gateway4: 192.168.115.2
-      nameservers:
-        addresses: [192.168.115.2, 8.8.8.8, 114.114.114.114]
+  test@ubuntu21:/etc/netplan$ cat 01-network-manager-all.yaml
+  network:
+    version: 2
+    renderer: networkd
+    ethernets:
+      ens33:
+        dhcp4: no
+        addresses: [192.168.115.210/24]
+        optional: true
+        gateway4: 192.168.115.2
+        nameservers:
+          addresses: [192.168.115.2, 8.8.8.8, 114.114.114.114]
   ```
 - 安装 kubectl
   ```
